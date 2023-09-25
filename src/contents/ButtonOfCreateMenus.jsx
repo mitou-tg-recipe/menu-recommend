@@ -112,7 +112,7 @@ const ButtonOfCreateMenus=()=>{
     console.log(requestBody);
 
     // fetch('http://localhost:8000/menu', {
-    fetch('https://ising-menu-recommend-api.com/menu', {
+    fetch('https://api.menu-recommend.com/menu', {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: new Headers({ 'Content-type' : 'application/json', 'Access-Control-Allow-Origin': '*' })
